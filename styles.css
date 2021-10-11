@@ -514,3 +514,35 @@ fieldset {
   padding: 0.3rem;
   border-radius: 4px;
 }
+
+.mobile-search {
+  text-align: left;
+  padding: 0.4rem;
+  align-self: center;
+  border: none;
+  background-color: #4174a8;
+  height: max-content;
+  outline: none;
+}
+
+.open {
+  display: block;
+  background-color: #08519c;
+  display: grid;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  padding: 1rem 3rem;
+  width: 100%;
+}
+
+.close {
+  display: none;
+}
+
+@media screen and (min-width: 607px) {
+  .open {
+    display: none;
+  }
+}
