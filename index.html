@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TEST</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h3 class="logo1">send</h3>
+        <h5 class="logo2">FREIGHT</h5>
+      </div>
+      <input class="search" type="text" placeholder="Search" />
+      <div class="cta">
+        <button class="cta-button-outline">Request Quote</button>
+        <button class="cta-button">Book Shipment</button>
+      </div>
+      <i class="fa menu fa-bars" aria-hidden="true"></i>
+    </nav>
+    <main class="main-body">
+      <i class="fa fa-arrow-left" aria-hidden="true"></i>
+      <div>
+        <header>
+          <h2 class="title-head-section">New Booking</h2>
+          <p class="desc-head-section">
+            Fill in the information below to get a quote or create a new booking
+          </p>
+        </header>
+        <div class="select-a-service-section">
+          <h3 class="title-head-section">Select a service</h3>
+          <div class="service-section">
+            <div class="service">
+              <div style="padding: 2rem 1rem">Air Freight</div>
+              <i class="fa fass fa-plane" aria-hidden="true"></i>
+            </div>
+
+            <div class="service">
+              <div style="padding: 2rem 1rem">Sea Freight</div>
+              <i class="fa fass fa-ship" aria-hidden="true"></i>
+            </div>
+            <div class="service">
+              <div style="padding: 2rem 1rem">Inland (Truck & Barge)</div>
+              <i class="fa fass fa-truck" aria-hidden="true"></i>
+            </div>
+            <div class="service">
+              <div style="padding: 2rem 1rem">Custom Clearance</div>
+              <i
+                style="margin-left: 2rem"
+                class="fa fass fa-user"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="select-a-service-section">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <div class="ss-top">
+            <div class="ie">
+              <p class="import-export">Import</p>
+              <p class="import-export">Export</p>
+            </div>
+            <input
+              class="mainLoginInput"
+              type="text"
+              placeholder="&#xf041; From City or port "
+            />
+            <input
+              class="mainLoginInput"
+              type="text"
+              placeholder="&#xf041; To City or port "
+            />
+          </div>
+          <div class="ss-bottom">
+            <input
+              class="mainLoginInput-bottom"
+              type="text"
+              placeholder="&#xf06b; Ready Date"
+            />
+            <input
+              class="mainLoginInput-bottom"
+              type="select"
+              placeholder="Incoterms"
+            />
+            <input
+              class="mainLoginInput-bottom"
+              type="number"
+              placeholder="Total Cargo Values"
+            />
+          </div>
+        </div>
+        <div class="cargo-section">
+          <div>
+            <h3 class="add-title-head-section-head">Cargo details</h3>
+
+            <div class="card">
+              <div class="botton-1">Total Dimension</div>
+              <div class="botton-1">Package Details</div>
+            </div>
+
+            <div class="container">
+              <fieldset>
+                <legend class="in-border-text">Total Volume</legend>
+                <p class="legend-text">cbm</p>
+              </fieldset>
+              <fieldset>
+                <legend class="in-border-text">Total Volume</legend>
+                <p class="legend-text">Kg</p>
+              </fieldset>
+            </div>
+          </div>
+          <div class="add-service-cargo">
+            <label class="switch">
+              <input type="checkbox" checked />
+              <span class="slider round"></span>
+            </label>
+            <p style="font-weight: 600; margin-top: 0.3rem">
+              Dangerous Cargo (ex. Chemicals, Battery)
+            </p>
+          </div>
+        </div>
+        <div class="select-a-service-section">
+          <h3 class="add-title-head-section-head">Additional Services</h3>
+          <div class="add-service-section">
+            <div class="add-service">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <div class="content">
+                <h3 class="add-title-head-section">Export Forwarding</h3>
+                <p class="desc-head-section">
+                  we handle custom clearance and documentation
+                </p>
+              </div>
+            </div>
+            <div class="add-service">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <div class="content">
+                <h3 class="add-title-head-section">Import Custom Clearance</h3>
+                <p class="desc-head-section">
+                  we handle custom clearance and documentation
+                </p>
+              </div>
+            </div>
+            <div class="add-service">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <div class="content">
+                <h3 class="add-title-head-section">Cargo Insurance</h3>
+                <p class="desc-head-section">
+                  we handle custom clearance and documentation
+                </p>
+              </div>
+            </div>
+            <div class="add-service">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <div class="content">
+                <h3 class="add-title-head-section">Transport Delivery</h3>
+                <p class="desc-head-section">
+                  we handle custom clearance and documentation
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
